@@ -1,30 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/css/style.css">
     <title>Home</title>
 </head>
 
-<body class="bg-linier-to-b from-slate-950 via-indigo-900 to-purple-950">
-    <header>
-        <nav>
-            <div>
-                <h1 class="">Fauzan.Dev</h1>
+<body class="min-h-screen bg-no-repeat bg-linear-to-b from-gray-950 via-slate-900 to-blue-950 ">
+    <header class="mt-4 md:mx-4 md:mt-6 lg:mx-6 lg:mt-8">
+        <nav class="flex justify-between py-3 md:py-6 lg:py-4 px-3 md:px-6 lg:px-10 rounded-lg bg-linear-to-r from-teal-900 to-slate-800 text-white border border-white/10 shadow-lg">
+            <div class="shrink-0 text-center  text-2xl font-sans font-semibold tracking-tight drop-shadow-md">
+                <h1>Fauzan</h1>
             </div>
- 
-            <div>
+
+            <div class="flex items-center gap-3 md:gap-5 lg:gap-10 font-bold font-sans text-md">
                 <a href="Home.html#">Home</a>
                 <a href="Project.html#">Project</a>
                 <a href="Contact.html#">Contact</a>
+
+
+                <button id="theme-icon" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round">
+        
+                        <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472
+                                9 9 0 0 0 9.473 9.472Z"/>
+                    
+                    </svg>
+
+                </button>
             </div>
         </nav>
     </header>
 
     <!-- Hero section -->
     <section>
-        <div>
+        <div class="">
             <div>
                 <img src="" alt="">
             </div>
