@@ -40,21 +40,44 @@
     <main>
         <!-- Hero section -->
         <section class="mt-5 mx-3 md:mx-4 lg:mx-6">
-            <div class="rounded-2xl shadow-lg border border-white/10 py-6 md:py-8 lg:py-10 px-5 md:px-6 lg:px-8 bg-linear-to-r from-teal-900 to-slate-800
+            <div class="rounded-2xl shadow-lg border border-white/10 gap-4 md:gap-6 py-6 md:py-8 lg:gap-10 lg:py-10 px-5 md:px-6 lg:px-8 bg-linear-to-r from-teal-900 to-slate-800
                       text-white flex items-center">
                 <div class="shrink-0 w-28 h-28 md:w-40 md:h-40 lg:w-50 lg:h-50">
                     <img class="w-full h-full object-cover rounded-lg border border-white/10" src="./img/sasuke.jpg"
                         alt="My Profil">
                 </div>
 
-                <div class="flex flex-col gap-1.5 md:gap-5 lg:gap-7">
+                <div class="flex flex-col gap-1.5 md:gap-5 lg:gap-7 min-w-0">
                     <div>
-                        <h1 class="text-x1 md:text-3xl lg:text-4xl font-bold">My Name Akhtar Fauzan</h1>
-                        <p class="text-sm md:text-lg lg:text-2xl font-semibold">Pelajar Rekayasa Perangkat Lunak <br class="md:block lg:block"><span class="text-slate-400 font-bold">(RPL). Junior Web Developer</span>
+                        <h1 class="text-x1 relative -top-2 md:-top-4 lg: md:text-3xl lg:text-4xl font-bold">My Name
+                            Akhtar Fauzan</h1>
+                        <p class="text-sm md:text-lg lg:text-2xl font-semibold">Pelajar Rekayasa Perangkat Lunak
+                            <br><span class="text-slate-400 font-bold">(RPL). Junior Web Developer</span>
                         </p>
                     </div>
 
-                    <address class="not-italic text-sm md:text-base lg:text-xl ">Ponorogo, Jawa Timur, Indonesia
+                    <address class="flex gap-2  not-italic text-sm md:text-base lg:text-xl ">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7"
+                            viewBox="0 0 24 27" fill="currentColor" aria-hidden="true">
+
+                            <defs>
+                                <mask id="potongPin">
+                                    <rect width="24" height="27" fill="#fff" />
+                                    <path fill="#000" stroke="#000" stroke-width="1.6"
+                                        d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                                </mask>
+                            </defs>
+
+                            <g mask="url(#potongPin)">
+                                <ellipse cx="12" cy="23" rx="9.8" ry="3" fill="none" stroke="currentColor"
+                                    stroke-width="1.8" />
+                                <ellipse cx="12" cy="23" rx="5" ry="1.4" />
+                            </g>
+
+                            <path fill-rule="evenodd" d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z
+                             M12 6.6a3.4 3.4 0 1 0 0 6.8 3.4 3.4 0 0 0 0-6.8Z" />
+                        </svg>
+                        Ponorogo, Jawa Timur, Indonesia
                     </address>
                 </div>
 
